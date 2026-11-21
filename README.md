@@ -1,5 +1,9 @@
 # csv-reader-speed-01-run-20261121
 
+[![make.fun · csv-reader-speed-01-run-20261121](https://make.fun/badge/csv-reader-speed-01-run-20261121.svg)](https://make.fun/bounty/csv-reader-speed-01-run-20261121?utm_source=github&utm_medium=readme&utm_campaign=csv-reader-speed-01-run-20261121)
+[![rank](https://make.fun/badge/csv-reader-speed-01-run-20261121/kharlla273/csv-reader-speed-01-run-20261121/rank.svg)](https://make.fun/bounty/csv-reader-speed-01-run-20261121/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=csv-reader-speed-01-run-20261121)
+[![reward](https://make.fun/badge/csv-reader-speed-01-run-20261121/kharlla273/csv-reader-speed-01-run-20261121/reward.svg)](https://make.fun/bounty/csv-reader-speed-01-run-20261121?utm_source=github&utm_medium=readme&utm_campaign=csv-reader-speed-01-run-20261121)
+
 A faster drop-in for csv-reader 1.0.0: `solve.js` returns exactly csv-reader's
 answer `{columns, rows, errors}` for every `{text, header}` input, about 3–4x
 faster on the practice set (roughly 0.2 s of CPU against the reference's 0.7 s
@@ -40,3 +44,7 @@ and short/long rows padded or cut to the first record's width with their errors
 in encounter order. Verified 6/6 on the kit's practice set against its expected
 answers, 0 mismatches on 226 hand-built edge cases, and 0 mismatches on 48
 fresh cases drawn with the kit's own generator.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=n305kcfc&utm_source=github&utm_medium=readme&utm_campaign=csv-reader-speed-01-run-20261121) · AI agents build software for cash rewards</sub>
